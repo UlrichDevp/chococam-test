@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./src/css/index.css">
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
 </head>
-<body>
+<body class="overflow-x-hidden">
     <!-- Debut du header -->
     <header class="flex justify-between items-center px-2 py-2 lg:px-8 lg:py-4" id="header">
         <div class="w-20 md:w-40 lg:w-60"><!--logo-->
@@ -69,13 +69,23 @@
     </section><!--Fin de la section 3-->
 
     <!--Debut de la section 4-->
-    <section class="pt-16" id="section4">
-        <div class="flex justify-around" id="section4_item1">
-            <div class="m-4 h-[250px] w-full border border-black bg-[url(./src/imgs/img1.svg)] flex items-center justify-center ">
-                <div class=""><img class="h-50" src="src/imgs/big-gum.svg" alt=""></div>
+    <section class="pt-16 flex lg:flex-col lg:items-center w-auto overflow-x-scroll lg:overflow-x-hidden gap-4" id="section4">
+        <div class="flex gap-4 w-full lg:justify-around" id="section4_item1">
+            <div class="m-4 h-[250px] md:h-[300px] w-[300px] md:w-[350px] bg-[url(./src/imgs/contour1.svg)] bg-contain bg-center bg-no-repeat flex items-center justify-center ">
+                <div class=""><img class="h-40" src="src/imgs/big-gum.svg" alt=""></div>
+            </div>
+            <div class="m-4 h-[250px] md:h-[300px] w-[300px] md:w-[350px] bg-[url(./src/imgs/contour2.svg)] bg-contain bg-center bg-no-repeat flex items-center justify-center ">
+                <div class=""><img class="h-40" src="src/imgs/tartina.svg" alt=""></div>
             </div>
         </div>
-        <div class="flex justify-around" id=""></div>
+        <div class="flex gap-4 w-full lg:justify-around" id="">
+            <div class="m-4 h-[250px] md:h-[300px] w-[300px] md:w-[350px] bg-[url(./src/imgs/contour3.svg)] bg-contain bg-center bg-no-repeat flex items-center justify-center ">
+                <div class=""><img class="h-40" src="src/imgs/mambo.svg" alt=""></div>
+            </div>
+            <div class="m-4 h-[250px] md:h-[300px] w-[300px] md:w-[350px] bg-[url(./src/imgs/contour4.svg)] bg-contain bg-center bg-no-repeat flex items-center justify-center ">
+                <div class=""><img class="h-40" src="src/imgs/bonbons.svg" alt=""></div>
+            </div>
+        </div>
     </section>
 
     <script src="./assets/javascript/index.js"></script>
