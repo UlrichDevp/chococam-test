@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chococam</title>
+    <link rel="stylesheet" href="./src/css/index.css">
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+</head>
+<body>
+    <!-- Debut du header -->
+    <header class="flex justify-between items-center px-2 py-2 lg:px-8 lg:py-4" id="header">
+        <div class="w-20 md:w-40 lg:w-60"><!--logo-->
+            <img src="src/imgs/logo-chococam.svg" alt="logo">
+        </div>
+
+        <nav class="hidden lg:flex"><!--navbarre-->
+            <ul class="flex w-full gap-8 text-[24px]">
+                <a href="" class="lien" id="propos">A propos</a>
+                <a href="" class="lien" id="Acceuil">Acceuil</a>
+                <a href="" class="lien" id="carriere">carriere</a>
+                <a href="" class="lien" id="contact">nous contacter</a>
+            </ul>
+        </nav>
+
+        <div class="" id=""><!--Boutons-->
+            <button class="hidden lg:flex bg-[#3E3232] rounded-[8px] py-1 px-5 text-[24px] text-white text-center">Contact</button>
+            <img class="lg:hidden" src="src/imgs/Buttons Group.svg" alt="menu">
+        </div>
+    </header> <!--Fin du header-->
+
+    <!--Debut de la section 1-->
+    <section class="flex flex-col-reverse md:flex-row md:items-center lg:items-start pt-4 text-[12px] md:text-[16px] lg:text-[24px]" id="section1">
+        <div class="md:flex-1 pt-4 flex flex-col items-center lg:items-start lg:px-[4%] lg:pt-[15vh] gap-4 md:gap-8 lg:gap-16" id="section1_item1">
+            <h1 class="text-[24px] md:text-[32px] lg:text-[48px] font-bold" id="">Passion du goût 😋!</h1>
+            <h2 class="text-center lg:text-start" id="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </h2>
+            <button class="border w-[60vw] md:w-3/5 py-1" id="">commander un produit</button>
+        </div>
+        <div class="md:flex-1" id="section1_item2">
+            <img class="w-full h-60 md:h-80 lg:h-[100vh] object-cover" src="src/imgs/img1.svg" alt="chocolat">
+        </div>
+    </section><!--Fin de la section 1-->
+
+    <!--Debut de la section 2-->
+    <section class="flex flex-col md:flex-row md:items-center pt-16 text-[12px] md:text-[16px] lg:text-[24px]" id="section2">
+        <div class="md:flex-1 flex justify-center h-70 md:h-80 lg:h-[100vh] " id="section2_item1">
+            <img class="object-co" src="src/imgs/img2.svg" alt="chocolatier">
+        </div>
+        <div class="md:flex-1 pt-4 flex flex-col items-center md:px-[4%] gap-4 md:gap-8 lg:gap-16" id="section2_item2">
+            <h1 class="text-[24px] md:text-[32px] lg:text-[48px] font-bold" id="">Meilleur chocolatier</h1>
+            <h2 class="text-center lg:text-start" id="">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the </h2>
+        </div>
+    </section>
+
+    <script src="./assets/javascript/index.js"></script>
+</body>
+
+</html>
