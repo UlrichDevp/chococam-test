@@ -89,12 +89,12 @@
     </section> <!--Fin de la section 4-->
 
     <!--Debut de la section 5: temoignages-->
-    <section class="mt-16 md:mt-20 flex flex-col gap-16 ">
+    <section class="mt-16 md:mt-20 flex flex-col gap-10 md:gap-16 ">
 
-        <div class="flex justify-center"><h1 class="font-bold text-[24px] md:text-[32px] lg:text-[48px] md:w-1/2 text-center">We also care with our customers and community</h1></div>
+        <div class="flex justify-center"><h1 class="font-bold text-[24px] md:text-[32px] lg:text-[48px] md:w-1/2 text-center" >We also care with our customers and community</h1></div>
 
-        <div class="flex overflow-x-scroll gap-4 lg:gap-8 px-4 bg-gradient-to-b from-gray-500 from-10% to-white to-90%" id=""><!--slider-->
-            <div class="flex flex-col gap-2 bg-white" id=""><!--Avis--><!--changer le bg-white plutard-->
+        <div class="flex overflow-x-scroll gap-4 lg:gap-8 px-4 bg-gradient-to-b from-[#443434] from-10% to-white to-90%" id=""><!--slider-->
+            <div class="flex flex-col gap-2 w-[250px] md:w-[350px] bg-white" id=""><!--Avis--><!--changer le bg-white plutard-->
                 <div class="w-[250px] md:w-[350px]"><img class="w-full h-40 md:h-60" src="src/imgs/avis.webp" alt=""></div>
                 <div class="pl-4" id="">⭐⭐⭐⭐</div>
                 <h3 class="pl-4 text-[12px] md:text-[14px] lg:text-[16px]">❞ Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt deserunt doloribus quas debitis. Laudantium ipsa quaerat nemo hic cupiditate incidunt ❞ </h3>
@@ -127,6 +127,31 @@
         </div>
     </section><!--Fin de la section 5-->
 
+    <!--Debut du formulaire-->
+    <section class="mt-16 md:mt-20 flex flex-col items-center gap-10 lg:gap-16">
+
+        <div class="flex justify-center"><h1 class="font-bold text-[24px] md:text-[32px] lg:text-[48px] text-center"> Commander dès maintenant </h1></div>
+
+        <form action="" class="flex flex-col gap-4 items-center" >
+            <div class="flex flex-col gap-1">
+                <label for="name" class="text-[14px] md:text-[16px] lg:text-[18px] font-medium">name</label>
+                <input type="text" id="name" placeholder="Gojo Satoru" class="shadow-xl w-[60vw] md:w-[50vw] lg:w-[40vw] border border-[0.1px] border-[#3E3232] rounded-[2px] lg:rounded-[5px] p-1 md:p-2 outline-none text-[12px] md:text-[14px] lg:text-[16px]">
+            </div>
+            <div class="flex flex-col gap-1">
+                <label for="email" class="text-[14px] md:text-[16px] lg:text-[18px] font-medium">email </label>
+                <input type="text" id="email" placeholder="GojoSatoru@gmail.com" class="shadow-xl w-[60vw] md:w-[50vw] lg:w-[40vw] border border-[0.1px] border-[#3E3232] rounded-[2px] lg:rounded-[5px] p-1 md:p-2 outline-none text-[12px] md:text-[14px] lg:text-[16px]">
+            </div>
+            <div class="flex flex-col gap-1">
+                <label for="message" class="text-[14px] md:text-[16px] lg:text-[18px] font-medium">produit(s)</label>
+                <input type="text" id="message" placeholder="tartina, mambo, kola..." class="shadow-xl w-[60vw] md:w-[50vw] lg:w-[40vw] border border-[0.1px] border-[#3E3232] rounded-[2px] lg:rounded-[5px] p-1 md:p-2 outline-none text-[12px] md:text-[14px] lg:text-[16px]">
+            </div>
+            <button class="cursor-pointer shadow-xl mt-5 flex gap-1 rounded-[5px] px-2 py-1 bg-[#3E3232] justify-center items-center text-white text-[14px] md:text-[16px] lg:text-[18px] font-medium" type="submit"><img class="h-5" src="src/imgs/mail.svg" alt=""> Envoyer</button>
+        </form>
+    </section><!--Fin du formulaire-->
+
+    <footer class="mt-16 bg-[#3E3232] h-[]">
+
+    </footer>
 
     <script src="./assets/javascript/index.js"></script>
 </body>
